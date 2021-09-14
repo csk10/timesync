@@ -6,7 +6,7 @@
 
 /** \name Debug messages */
 /**\{*/
-#ifdef PTPD_DBGVV
+#ifdef 1
 #define PTPD_DBGV
 #define PTPD_DBG
 #define PTPD_ERR
@@ -15,7 +15,7 @@
 #define DBGVV(...)
 #endif
 
-#ifdef PTPD_DBGV
+#ifdef 1
 #define PTPD_DBG
 #define PTPD_ERR
 #define DBGV(...)  { TimeInternal tmpTime; getTime(&tmpTime); printf("(d %d.%09d) ", tmpTime.seconds, tmpTime.nanoseconds); printf(__VA_ARGS__); }
@@ -23,7 +23,7 @@
 #define DBGV(...)
 #endif
 
-#ifdef PTPD_DBG
+#ifdef 1
 #define PTPD_ERR
 #define DBG(...)  { TimeInternal tmpTime; getTime(&tmpTime); printf("(D %d.%09d) ", tmpTime.seconds, tmpTime.nanoseconds); printf(__VA_ARGS__); }
 #else
@@ -33,7 +33,7 @@
 
 /** \name System messages */
 /**\{*/
-#ifdef PTPD_ERR
+#ifdef 1
 #define ERROR(...)  { TimeInternal tmpTime; getTime(&tmpTime); printf("(E %d.%09d) ", tmpTime.seconds, tmpTime.nanoseconds); printf(__VA_ARGS__); }
 /* #define ERROR(...)  { printf("(E) "); printf(__VA_ARGS__); } */
 #else

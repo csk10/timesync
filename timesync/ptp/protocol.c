@@ -243,7 +243,7 @@ void doState(PtpClock *ptpClock)
 {
 	ptpClock->messageActivity = FALSE;
 
-	switch (ptpClock->portDS.portState)
+	switch (ptpClock->portDS.portState) //PTP_INITIALIZING
 	{
 		case PTP_LISTENING:
 		case PTP_UNCALIBRATED:
@@ -281,7 +281,7 @@ void doState(PtpClock *ptpClock)
 				break;
 	}
 
-	switch (ptpClock->recommendedState)
+	switch (ptpClock->recommendedState) //
 	{
 		case PTP_MASTER:
 			switch (ptpClock->portDS.portState)
@@ -375,6 +375,7 @@ void doState(PtpClock *ptpClock)
 			}
 			else
 			{
+			    printf("PROTOCOL:PTP initialization failed");
 				toState(ptpClock, PTP_FAULTY);
 			}
 
