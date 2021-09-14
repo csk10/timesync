@@ -1,0 +1,11 @@
+bmc.c:6:6:EUI48toEUI64	16	static
+bmc.c:19:6:initData	24	static
+bmc.c:87:6:isSamePortIdentity	16	static
+bmc.c:92:6:addForeign	48	static
+bmc.c:143:6:m1	16	static
+bmc.c:173:6:p1	16	static
+bmc.c:179:6:s1	32	static
+bmc.c:219:6:copyD0	24	static
+bmc.c:251:8:bmcDataSetComparison	32	static
+bmc.c:362:9:bmcStateDecision	40	static
+bmc.c:407:9:bmc	40	static

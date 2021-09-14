@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="EWARM">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/LwIP_HTTP_Server_Netconn_RTOS/Utilities/PC_Software/IDEs_Patches/EWARM/EWARMv8_STM32H72x-73x_Support_V0.2.zip!/" />
+      <root url="jar://$PROJECT_DIR$/LwIP_HTTP_Server_Netconn_RTOS/Utilities/PC_Software/IDEs_Patches/EWARM/EWARMv8_STM32H7Ax-7Bx_Support_V2.3.zip!/" />
+      <root url="jar://$PROJECT_DIR$/LwIP_HTTP_Server_Netconn_RTOS/Utilities/PC_Software/IDEs_Patches/EWARM/EWARMv8_STM32H74x-75x_Support_V1.6.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

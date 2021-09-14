@@ -1,0 +1,3 @@
+ptpd.c:12:6:ptpd_task	8	static
+ptpd.c:26:6:ptpd_alert	4	static
+ptpd.c:31:6:ptpd_init	8	static

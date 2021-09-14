@@ -1,0 +1,2 @@
+startup.c:5:6:ptpdShutdown	16	static
+startup.c:10:9:ptpdStartup	24	static

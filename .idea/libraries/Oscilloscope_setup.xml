@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Oscilloscope_setup">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/LwIP_HTTP_Server_Netconn_RTOS/Utilities/PC_Software/Oscilloscope/Oscilloscope_setup.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

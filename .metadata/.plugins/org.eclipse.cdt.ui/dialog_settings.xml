@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="completion_proposal_size">
+	</section>
+	<section name="org.eclipse.cdt.ui.text.hover.CMacroExpansionExploration">
+	</section>
+	<section name="PDOMSearchPage">
+		<item key="caseSensitive" value="false"/>
+		<item key="searchFlags" value="227191"/>
+		<list key="previousPatterns">
+			<item value="EthHandle"/>
+			<item value="ETH_IRQHandler"/>
+			<item value="HAL_NVIC_EnableIRQ"/>
+			<item value="USE_HAL_ETH_REGISTER_CALLBACKS"/>
+			<item value="HAL_ETH_Init"/>
+			<item value="ip4_output_if"/>
+			<item value="__io_putchar"/>
+			<item value="IP_ADDR0"/>
+			<item value="HAL_UART_Init"/>
+			<item value="HAL_UART_MspInit"/>
+			<item value="netif_input"/>
+			<item value="ethernet_input"/>
+			<item value="etharp_input"/>
+			<item value="dhcp_arp_reply"/>
+			<item value="dhcp_decline"/>
+			<item value="ETH_CheckFrameReceived"/>
+			<item value="dhcp_inform"/>
+			<item value="ethernetif_input"/>
+			<item value="mbedtls_net_init"/>
+			<item value="MX_LWIP_Init"/>
+		</list>
+	</section>
+</section>

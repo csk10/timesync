@@ -1,0 +1,6 @@
+sys_time.c:8:6:displayStats	72	static
+sys_time.c:73:6:getTime	24	static
+sys_time.c:81:6:setTime	24	static
+sys_time.c:91:6:updateTime	24	static
+sys_time.c:105:10:getRand	16	static
+sys_time.c:110:7:adjFreq	16	static

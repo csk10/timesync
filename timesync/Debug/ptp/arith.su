@@ -1,0 +1,8 @@
+arith.c:5:6:scaledNanosecondsToInternalTime	32	static
+arith.c:27:6:fromInternalTime	16	static
+arith.c:46:6:toInternalTime	16	static
+arith.c:61:6:normalizeTime	16	static
+arith.c:78:6:addTime	24	static
+arith.c:86:6:subTime	24	static
+arith.c:94:6:div2Time	16	static
+arith.c:103:9:floorLog2	24	static
